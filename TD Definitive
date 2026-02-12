@@ -1,4 +1,4 @@
---0.3
+--0.4
 local Players = game:GetService("Players")
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
@@ -118,7 +118,7 @@ end
 if isMobile then
 	local openBtn = Instance.new("TextButton")
 	openBtn.Size = UDim2.new(0, 52, 0, 52)
-	openBtn.Position = UDim2.new(1, -70, 0.5, -26)
+	openBtn.Position = UDim2.new(1, -70, 0.5, -120)
 	openBtn.Text = "UI"
 	openBtn.Font = Enum.Font.GothamBold
 	openBtn.TextSize = 16
